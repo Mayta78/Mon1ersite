@@ -12,9 +12,9 @@ height: auto;
 
 .title {
     width: 100%;
-    height: 250px;
+    height: 200px;
     text-align:center;
-    font-size: 180px;
+    font-size: 120px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -26,41 +26,6 @@ height: auto;
     padding-left: 29%;
     padding-right: 39%;
     padding-bottom: 2%; 
-}
-
-.list-links {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-wrap: nowrap;
-    text-transform: uppercase;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-.nav-links {
-    width: 150px;
-    height: 40px;
-    background-color: rgb(114, 236, 198);
-    font-size: xx-large;
-    font-weight: bold;
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.button {
-    display: block;
-    width: 470px;
-    height: 60px;
-    background-color: rgb(122, 114, 236);
-    list-style: none;
-    font-size: xx-large;
-    font-weight: bold;
-    align-items: center;
-    padding: 10px;
-    border-radius: 20px;
 }
 
 main {
@@ -81,7 +46,56 @@ main {
     text-align: justify;
 }
 
+.list-links {
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+}
+
+.nav-links {
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(114, 236, 198);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    width: 170px;
+    height: 30px;
+    background-color:rgb(114, 236, 198);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.formulaire {
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-submit {
+    background-color: rgb(220, 138, 50);
+}
+
+
 footer {
     padding: 10px;
+    margin-top: 40px;
 }
 
