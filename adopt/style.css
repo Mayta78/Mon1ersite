@@ -46,20 +46,28 @@ main {
     text-align: justify;
 }
 
-.list-links {
+a {
+    outline: none;
     text-decoration: none;
+    color: black;
+}
+
+.list-links {
     display: flex;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     flex-wrap: nowrap;
     text-transform: uppercase;
     justify-content: space-evenly;
 }
 
-.nav-links {
-    width: 100px;
+.list-links :hover {
+    background-color:white;
+}
+
+.nav-links  {
+    width: 120px;
     height: 30px;
-    text-decoration: none;
     list-style: none;
     background-color: rgb(114, 236, 198);
     text-align: center;
@@ -67,14 +75,12 @@ main {
     border-radius: 20px;
 }
 
-.button {
+.button-formulaire {
     display: flex;
     width: 170px;
     height: 30px;
-    background-color:rgb(114, 236, 198);
-    text-decoration: none;
+    background-color:rgb(220, 138, 50);
     font-size: medium;
-    font-weight: bold;
     list-style: none;
     text-align: center;
     padding: 10px;
@@ -89,10 +95,32 @@ main {
     padding-right: 10px;
 }
 
-.button-submit {
+.send-button {
     background-color: rgb(220, 138, 50);
+    border-radius: 20px;
 }
 
+.galerie {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.item img {
+width: 100%;
+height: auto;
+}
 
 footer {
     padding: 10px;
