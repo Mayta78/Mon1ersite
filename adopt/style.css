@@ -34,16 +34,20 @@ main {
     height: 30%;
 }
 
-.presentation  {
-    font-size: 50px;
-    max-width: 1900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 80px;
-    padding-top: 30px;
-    padding-bottom: 60px;
-    display: block;
+.presentation {
+    display: flex;
+}
+
+.presentation-text {
+    font-size: 20px;
     text-align: justify;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
 
 a {
