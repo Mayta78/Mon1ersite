@@ -18,11 +18,6 @@ height: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media screen and (min-width:) {
-    .title{
-
-    }
-}
 
 .logo {
     display: flex;
