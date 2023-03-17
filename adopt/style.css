@@ -1,5 +1,5 @@
 body {
-background-color: rgb(88, 162, 235);
+background-color: #bde0fe;
 width: auto;
 height: auto;
 }
@@ -16,6 +16,12 @@ height: auto;
     text-align:center;
     font-size: 120px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (min-width:) {
+    .title{
+
+    }
 }
 
 .logo {
@@ -45,9 +51,9 @@ main {
     padding-right: 30px;
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+.h1 {
+    font-family: 'sansita';
+    font-size: 40px;
 }
 
 a {
@@ -66,14 +72,14 @@ a {
 }
 
 .list-links :hover {
-    background-color:white;
+    background-color:#ffc8dd;
 }
 
 .nav-links  {
     width: 120px;
     height: 30px;
     list-style: none;
-    background-color: rgb(114, 236, 198);
+    background-color: #cdb4db;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
@@ -83,7 +89,7 @@ a {
     display: flex;
     width: 170px;
     height: 30px;
-    background-color:rgb(220, 138, 50);
+    background-color: #ffafcc;
     font-size: medium;
     list-style: none;
     text-align: center;
@@ -100,8 +106,12 @@ a {
 }
 
 .send-button {
-    background-color: rgb(220, 138, 50);
+    background-color: #ffafcc;
     border-radius: 20px;
+}
+
+.send-button:hover {
+    background-color:#ffc8dd ;
 }
 
 .galerie {
@@ -127,7 +137,7 @@ height: auto;
 }
 
 footer {
-    padding: 10px;
+    background-color: #a2d2ff;
     margin-top: 40px;
 }
 
