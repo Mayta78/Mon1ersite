@@ -1,5 +1,5 @@
 body {
-background-color: #bde0fe;
+background-color: #bbd0ff;
 width: auto;
 height: auto;
 }
@@ -36,6 +36,7 @@ main {
 
 .presentation {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .presentation-text {
@@ -54,41 +55,46 @@ a {
     outline: none;
     text-decoration: none;
     color: black;
+    list-style: none;
+}
+
+.event {
+font-size: xx-large ;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-transform: uppercase;
 }
 
 .list-links {
     display: flex;
-    font-size: x-large;
     font-weight: bold;
     flex-wrap: nowrap;
+    list-style: none;
+    text-align: center;
     text-transform: uppercase;
     justify-content: space-evenly;
 }
 
 .list-links :hover {
-    background-color:#ffc8dd;
+    background-color: #e7c6ff;
 }
 
 .nav-links  {
     width: 120px;
     height: 30px;
-    list-style: none;
-    background-color: #cdb4db;
-    text-align: center;
-    padding: 10px;
+    font-size: x-large;
+    background-color: #c8b6ff;
+    padding: 15px;
     border-radius: 20px;
 }
 
 .button-formulaire {
-    display: flex;
     width: 170px;
     height: 30px;
-    background-color: #ffafcc;
-    font-size: medium;
-    list-style: none;
-    text-align: center;
-    padding: 10px;
+    font-size: large;
+    background-color:#c8b6ff;
+    padding: 15px;
     border-radius: 20px;
+    border-style: double;
 }
 
 .formulaire {
@@ -100,38 +106,42 @@ a {
 }
 
 .send-button {
-    background-color: #ffafcc;
+    background-color: #ffd6ff;
     border-radius: 20px;
 }
 
 .send-button:hover {
-    background-color:#ffc8dd ;
+    background-color: #e7c6ff ;
 }
 
 .galerie {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-    max-width: 1300px;
-    margin: 70px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
 }
 
 .item {
-    width: 300px;
-    height: 200px;
+    width: auto;
+    height: auto;
     margin: 10px;
     overflow: hidden;
     flex-shrink: 0;
 }
 
 .item img {
-width: 100%;
-height: auto;
-}
+    width: 80%;
+    height: auto;
+    }
 
 footer {
     background-color: #a2d2ff;
     margin-top: 40px;
 }
 
+.copyright {
+    display:flex;
+    justify-content: flex-end;
+    font-size: smaller;
+    margin-right: 5px;
+}
