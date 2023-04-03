@@ -1,7 +1,7 @@
 body {
 background-color: #bbd0ff;
-width: auto;
-height: auto;
+width: 100%;
+height: 100%;
 }
 
 .header {
@@ -52,9 +52,22 @@ main {
     padding-right: 30px;
 }
 
+@media screen and (max-width: 680px) {
+    .presentation-text  {
+        padding-top: 20px;
+        padding-left: 40px;
+        } 
+}
+
 .h1 {
     font-family: 'sansita';
     font-size: 40px;
+}
+
+@media screen and (max-width: 460px) {
+    h1 {
+        font-size: 25px;
+    }
 }
 
 a {
@@ -70,16 +83,10 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-transform: uppercase;
 }
 
+
 @media screen and (max-width: 680px) {
     .presentation-image  {
         display: none;
-        } 
-}
-
-@media screen and (max-width: 680px) {
-    .presentation-text  {
-        padding-left: 40px;
-        justify-content: center;
         } 
 }
 
@@ -93,7 +100,6 @@ text-transform: uppercase;
 .list-links {
     display: flex;
     font-weight: bold;
-    flex-wrap: nowrap;
     list-style: none;
     text-align: center;
     text-transform: uppercase;
@@ -113,6 +119,18 @@ text-transform: uppercase;
     border-radius: 20px;
 }
 
+@media screen and (max-width: 565px) {
+    .nav-links {
+    width: 100px;
+    height: 22px;
+    font-size: medium ;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    }
+}
+
 .button-formulaire {
     width: 170px;
     height: 30px;
@@ -122,6 +140,17 @@ text-transform: uppercase;
     border-radius: 20px;
     border-style: double;
 }
+
+@media screen and (max-width: 565px) {
+    .button-formulaire {
+        width: 100px;
+        height: 22px;
+        padding: 10px;
+        font-size: small;
+        margin-left: 5px;
+    }
+}
+
 .event {
     font-size: xx-large;
 }
@@ -130,6 +159,7 @@ text-transform: uppercase;
     display: inline-block;
     border: 2px black solid;
     border-radius: 20px;
+    padding-top: 3px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -163,8 +193,18 @@ text-transform: uppercase;
     height: auto;
     }
 
+
+@media screen and (max-width: 760px) {
+        .item img {
+            height: 100px;
+        }
+}
+
+
 footer {
     background-color: #a2d2ff;
+    width: 100%;
+    padding-left: 10px;
     margin-top: 40px;
 }
 
