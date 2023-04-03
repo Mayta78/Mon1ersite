@@ -18,6 +18,12 @@ height: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+@media screen and (max-width: 897px) {
+    .title {
+        font-size: 80px;
+        }
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -64,6 +70,26 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-transform: uppercase;
 }
 
+@media screen and (max-width: 680px) {
+    .presentation-image  {
+        display: none;
+        } 
+}
+
+@media screen and (max-width: 680px) {
+    .presentation-text  {
+        padding-left: 40px;
+        justify-content: center;
+        } 
+}
+
+@media screen and (max-width: 597px) {
+    .event-image  {
+        width:300px ;
+        height:200px;
+        } 
+}
+
 .list-links {
     display: flex;
     font-weight: bold;
@@ -95,6 +121,9 @@ text-transform: uppercase;
     padding: 15px;
     border-radius: 20px;
     border-style: double;
+}
+.event {
+    font-size: xx-large;
 }
 
 .formulaire {
