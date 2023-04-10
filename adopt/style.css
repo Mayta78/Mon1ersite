@@ -21,6 +21,8 @@ height: 100%;
 @media screen and (max-width: 897px) {
     .title {
         font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-left: 10px;
         }
 }
 
@@ -55,7 +57,7 @@ main {
 @media screen and (max-width: 680px) {
     .presentation-text  {
         padding-top: 20px;
-        padding-left: 40px;
+        padding-left: 50px;
         } 
 }
 
